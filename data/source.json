@@ -1,0 +1,8 @@
+{
+  "source": "sample-1",
+  "observedAt": "2026-11-17T08:00:00.000Z",
+  "items": [
+    {"id": "1-A", "label": "码头堆场提箱预约样例甲", "state": "active", "revision": 1},
+    {"id": "1-B", "label": "码头堆场提箱预约样例乙", "state": "pending", "revision": 1}
+  ]
+}
