@@ -2,7 +2,32 @@
   "source": "sample-1",
   "observedAt": "2026-11-17T08:00:00.000Z",
   "items": [
-    {"id": "1-A", "label": "码头堆场提箱预约样例甲", "state": "active", "revision": 1},
-    {"id": "1-B", "label": "码头堆场提箱预约样例乙", "state": "pending", "revision": 1}
+    {
+      "id": "1-A",
+      "label": "码头堆场提箱预约样例甲",
+      "state": "active",
+      "revision": 2,
+      "berth": "B-07",
+      "windowStart": "2026-11-18T09:00:00.000Z",
+      "windowEnd": "2026-11-18T10:00:00.000Z",
+      "vehicle": {
+        "id": "truck-31",
+        "plate": "沪A·12345",
+        "revision": 1,
+        "driver": "样例司机甲",
+        "slotStart": "2026-11-18T09:10:00.000Z",
+        "slotEnd": "2026-11-18T09:40:00.000Z"
+      }
+    },
+    {
+      "id": "1-B",
+      "label": "码头堆场提箱预约样例乙",
+      "state": "pending",
+      "revision": 1,
+      "berth": "B-11",
+      "windowStart": "2026-11-18T11:00:00.000Z",
+      "windowEnd": "2026-11-18T12:00:00.000Z",
+      "vehicle": null
+    }
   ]
 }
